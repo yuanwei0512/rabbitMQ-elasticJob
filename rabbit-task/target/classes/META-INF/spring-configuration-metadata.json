@@ -1,0 +1,58 @@
+{
+  "groups": [
+    {
+      "name": "elastic.job.zk",
+      "type": "com.hyw.task.rabbit.autoconfig.JobZookeeperProperties",
+      "sourceType": "com.hyw.task.rabbit.autoconfig.JobZookeeperProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "elastic.job.zk.base-sleep-time-milliseconds",
+      "type": "java.lang.Integer",
+      "sourceType": "com.hyw.task.rabbit.autoconfig.JobZookeeperProperties",
+      "defaultValue": 1000
+    },
+    {
+      "name": "elastic.job.zk.connection-timeout-milliseconds",
+      "type": "java.lang.Integer",
+      "sourceType": "com.hyw.task.rabbit.autoconfig.JobZookeeperProperties",
+      "defaultValue": 15000
+    },
+    {
+      "name": "elastic.job.zk.digest",
+      "type": "java.lang.String",
+      "sourceType": "com.hyw.task.rabbit.autoconfig.JobZookeeperProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "elastic.job.zk.max-retries",
+      "type": "java.lang.Integer",
+      "sourceType": "com.hyw.task.rabbit.autoconfig.JobZookeeperProperties",
+      "defaultValue": 3
+    },
+    {
+      "name": "elastic.job.zk.max-sleep-time-milliseconds",
+      "type": "java.lang.Integer",
+      "sourceType": "com.hyw.task.rabbit.autoconfig.JobZookeeperProperties",
+      "defaultValue": 3000
+    },
+    {
+      "name": "elastic.job.zk.namespace",
+      "type": "java.lang.String",
+      "sourceType": "com.hyw.task.rabbit.autoconfig.JobZookeeperProperties"
+    },
+    {
+      "name": "elastic.job.zk.server-lists",
+      "type": "java.lang.String",
+      "sourceType": "com.hyw.task.rabbit.autoconfig.JobZookeeperProperties"
+    },
+    {
+      "name": "elastic.job.zk.session-timeout-milliseconds",
+      "type": "java.lang.Integer",
+      "sourceType": "com.hyw.task.rabbit.autoconfig.JobZookeeperProperties",
+      "defaultValue": 60000
+    }
+  ],
+  "hints": []
+}

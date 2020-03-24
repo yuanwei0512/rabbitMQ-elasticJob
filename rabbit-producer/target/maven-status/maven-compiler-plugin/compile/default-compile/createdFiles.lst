@@ -1,0 +1,12 @@
+com\hyw\producer\rabbit\autoconfigure\RabbitProducerAutoConfiguration.class
+com\hyw\producer\rabbit\entity\BrokerMessage.class
+com\hyw\producer\rabbit\broker\ProducerClient.class
+com\hyw\producer\rabbit\broker\RabbitBroker.class
+com\hyw\producer\rabbit\config\database\RabbitProducerMyBatisConfiguration.class
+com\hyw\producer\rabbit\config\database\RabbitProducerDataSourceConfiguration.class
+com\hyw\producer\rabbit\broker\RabbitBrokerImpl.class
+com\hyw\producer\rabbit\broker\RabbitTemplateContainer.class
+com\hyw\producer\rabbit\config\database\BrokerMessageConfiguration.class
+com\hyw\producer\rabbit\config\database\RabbitProducerMybatisMapperScanerConfig.class
+com\hyw\producer\rabbit\broker\ProducerClient$1.class
+com\hyw\producer\rabbit\mapper\BrokerMessageMapper.class

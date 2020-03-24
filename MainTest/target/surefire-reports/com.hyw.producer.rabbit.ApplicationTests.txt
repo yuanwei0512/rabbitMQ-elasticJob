@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.hyw.producer.rabbit.ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 28.431 s <<< FAILURE! - in com.hyw.producer.rabbit.ApplicationTests
+testProducerClient(com.hyw.producer.rabbit.ApplicationTests)  Time elapsed: 0.481 s  <<< ERROR!
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.hyw.producer.rabbit.mapper.BrokerMessageMapper.selectByPrimaryKey
+	at com.hyw.producer.rabbit.ApplicationTests.testProducerClient(ApplicationTests.java:42)
+
